@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research &middot; Daniel S.W. Lee, Ph.D.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">Daniel S.W. Lee</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <ul id="navMenu">
+      <li><a class="navlink" href="index.html">About</a></li>
+      <li><a class="navlink" href="research.html" aria-current="page">Research</a></li>
+      <li><a class="navlink" href="publications.html">Publications</a></li>
+      <li><a class="navlink" href="code.html">Code and Data</a></li>
+      <li><a class="navlink" href="cv.html">CV</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Daniel S.W. Lee, Ph.D.</div>
+    <h1>Research</h1>
+  </div>
+</header>
+
+<section id="research">
+  <div class="wrap">
+    <div class="card-grid">
+      <div class="card">
+        <span class="tag">Current</span>
+        <div class="fig-slot fig-contain">
+          <img src="images/research-crowding.png" alt="Murine thymocytes expressing the SaLSa cell-surface-crowding reporter, surface-stained with anti-CD45" onerror="this.closest('.fig-slot').classList.add('fig-missing')">
+          <span class="fig-missing-label">Drop an image at <code>images/research-crowding.png</code><br>(e.g. a schematic or microscopy figure from the Nat.&nbsp;Comm. / PNAS papers)</span>
+        </div>
+        <p class="fig-caption">Murine thymocytes expressing the SaLSa cell-surface-crowding reporter, surface-stained with an anti-CD45 antibody.</p>
+        <h3>Cell-surface crowding &amp; the immune response</h3>
+        <p>The glycocalyx and cell-surface proteome create a physical barrier that resists membrane-membrane apposition. I study how the cell can tune surface crowding (or how we might modify it) to control cell-cell fusion, immune synapse formation, and T&nbsp;cell and NK&nbsp;cell function.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Ph.D. work</span>
+        <div class="fig-slot">
+          <img src="images/research-phase-separation.jpg" alt="Optogenetically nucleated Corelet condensates in the cell nucleus" onerror="this.closest('.fig-slot').classList.add('fig-missing')">
+          <span class="fig-missing-label">Drop an image at <code>images/research-phase-separation.jpg</code><br>(e.g. a condensate/chromatin figure from the Nat.&nbsp;Phys. papers)</span>
+        </div>
+        <p class="fig-caption">Optogenetically nucleated Corelet condensates in the nucleus, used to probe chromatin mechanics and condensate coarsening dynamics (<em>Nature Physics</em>, 2021).</p>
+        <h3>Phase separation &amp; the physics of the cell nucleus</h3>
+        <p>Biomolecular condensates formed by liquid-liquid phase separation organize the genome and regulate gene expression. My doctoral work used statistical physics and quantitative live-cell imaging to explain how chromatin mechanics and condensate coalescence/nucleation set the size, dynamics, and function of nuclear condensates.</p>
+      </div>
+    </div>
+    <p><a href="publications.html">Full publication list &rarr;</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    &copy; <span id="year"></span> Daniel S.W. Lee. Built with GitHub Pages.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
